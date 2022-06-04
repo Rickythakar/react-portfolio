@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
-import NavTabs from './components/NavTabs';
+import Header from './components/Header';
 import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
+// Move state to here
+
   return (
     <div className="App">
-      <header className="App-header">
-      header
-      {/* Insert Profile Pic here  */}  
+      <Header />
+
       <PortfolioContainer/>
-      </header>
     </div>
   );
 }
