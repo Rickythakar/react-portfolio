@@ -3,9 +3,9 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Hello</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+  My name is Ricky Thakar
       </p>
     </div>
   );

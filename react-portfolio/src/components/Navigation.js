@@ -2,7 +2,7 @@ import React from 'react';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function NavTabs({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -29,11 +29,11 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#my-work"
-          onClick={() => handlePageChange('MyWork')}
+          onClick={() => handlePageChange('Projects')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
-          My Work
+          Projects
         </a>
       </li>
       <li className="nav-item">
@@ -49,5 +49,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     </ul>
   );
 }
+  
 
-export default NavTabs;
+export default Navigation;
