@@ -1,12 +1,11 @@
 import React from 'react'
-// import Navigation from './Navigation'
-import PortfolioContainer from './PortfolioContainer'
+import Navigation from './Navigation'
 
-function Header() {
+function Header({ handlePageChange }) {
     return (
-        
+
         <header className='App-header'>
-            <PortfolioContainer/>
+            <Navigation handlePageChange={handlePageChange} />
         </header>
     )
 }

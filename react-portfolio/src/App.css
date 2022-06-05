@@ -39,6 +39,15 @@
 
 .nav-tabs {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+nav-items {
+  margin: 0 10px;
+  display: inline-block;
+  text-align: center;
 }
