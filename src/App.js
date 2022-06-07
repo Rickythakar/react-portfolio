@@ -3,11 +3,13 @@ import './App.css';
 import Header from './components/Header';
 import PortfolioContainer from './components/PortfolioContainer';
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
+
 
 function App() {
   // Move state to here
