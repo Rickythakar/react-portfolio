@@ -9,5 +9,6 @@ export default function About() {
       Some of my hobbies include watching movies, skating, and going on adventures with friends.
       </p>
     </div>
+    
   );
 }

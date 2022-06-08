@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(./img/profile_pic.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,4 +44,19 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardContainer {
+  margin: 50px;
+}
+
+
+.profilePic{
+  background-image: url(./img/profile_pic.jpeg);
 }

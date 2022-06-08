@@ -48,9 +48,10 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    
   );
 
 }
-  
+
 
 export default Navigation;
