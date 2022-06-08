@@ -60,3 +60,17 @@
 .profilePic{
   background-image: url(./img/profile_pic.jpeg);
 }
+
+
+.bio {
+  font-size: xx-large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactMe {
+  justify-content: center;
+}
+.contactForm {
+  position: relative;
+  justify-content: center;
+}
